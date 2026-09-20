@@ -14,17 +14,18 @@
 	--font-poppins: 'Poppins', sans-serif;
 }
 
-/* Global Apple Light Minimalist Base */
+/* Global Dark Mode Base (Deep Dark Blue / Midnight Black) */
 html {
 	scroll-behavior: smooth;
-	background-color: #ffffff;
-	color: #1d1d1f;
+	background-color: #060913;
+	color: #f1f5f9;
+	color-scheme: dark;
 }
 
 body {
 	font-family: var(--font-sans);
-	background-color: #ffffff;
-	color: #1d1d1f;
+	background-color: #060913;
+	color: #f1f5f9;
 	min-height: 100vh;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;

@@ -85,45 +85,45 @@
 	/>
 </svelte:head>
 
-<div class="relative min-h-screen bg-white text-[#1d1d1f] selection:bg-sky-100 selection:text-sky-900 font-sans antialiased overflow-x-hidden">
-	<!-- Ambient Background Glows (Harmonious Soft Sky Blue & Azure Tints) -->
+<div class="relative min-h-screen bg-[#070b14] text-slate-100 selection:bg-sky-500/30 selection:text-sky-200 font-sans antialiased overflow-x-hidden">
+	<!-- Ambient Background Glows (Deep Dark Blue / Midnight Obsidian Glows) -->
 	<div class="pointer-events-none absolute inset-0 overflow-hidden">
-		<!-- Micro dot grid with soft sky hint -->
-		<div class="absolute inset-0 bg-[radial-gradient(#bae6fd_1px,transparent_1px)] [background-size:24px_24px] opacity-40"></div>
-		<!-- Top Ambient Soft Sky Glow -->
-		<div class="absolute -top-36 left-1/2 -translate-x-1/2 w-[800px] sm:w-[1100px] h-[450px] bg-gradient-to-b from-sky-200/40 via-blue-100/20 to-transparent blur-[130px] rounded-full"></div>
+		<!-- Micro dot grid with subtle dark sky hint -->
+		<div class="absolute inset-0 bg-[radial-gradient(rgba(56,189,248,0.12)_1px,transparent_1px)] [background-size:24px_24px] opacity-35"></div>
+		<!-- Top Ambient Deep Blue Glow -->
+		<div class="absolute -top-36 left-1/2 -translate-x-1/2 w-[800px] sm:w-[1100px] h-[450px] bg-gradient-to-b from-sky-600/15 via-blue-700/10 to-transparent blur-[140px] rounded-full"></div>
 		<!-- Ambient Center-Right Accent -->
-		<div class="absolute top-[650px] -right-36 w-[550px] h-[550px] bg-sky-100/50 blur-[140px] rounded-full"></div>
+		<div class="absolute top-[650px] -right-36 w-[550px] h-[550px] bg-blue-900/15 blur-[150px] rounded-full"></div>
 		<!-- Bottom Left Soft Accent -->
-		<div class="absolute top-[1200px] -left-36 w-[600px] h-[600px] bg-blue-100/40 blur-[150px] rounded-full"></div>
+		<div class="absolute top-[1200px] -left-36 w-[600px] h-[600px] bg-sky-900/15 blur-[160px] rounded-full"></div>
 	</div>
 
-	<!-- Navigation Bar (Frosted Glass with Subtle Sky Border) -->
-	<header class="sticky top-0 z-50 backdrop-blur-xl bg-white/85 border-b border-sky-100/80 transition-all duration-300">
+	<!-- Navigation Bar (Dark Frosted Glass with Deep Blue Border) -->
+	<header class="sticky top-0 z-50 backdrop-blur-xl bg-[#070b14]/85 border-b border-slate-800/80 transition-all duration-300">
 		<div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between gap-4">
 			<a href="/" class="flex items-center gap-3 group">
 				<div class="w-8 h-8 rounded-xl bg-gradient-to-br from-sky-500 to-blue-600 text-white flex items-center justify-center text-xs font-black shadow-md shadow-sky-500/25 group-hover:scale-105 transition-transform">
 					R
 				</div>
 				<div class="flex flex-col">
-					<span class="text-sm font-bold tracking-tight text-[#1d1d1f] group-hover:text-sky-700 transition-colors">
+					<span class="text-sm font-bold tracking-tight text-white group-hover:text-sky-400 transition-colors">
 						Rindra Labs
 					</span>
-					<span class="text-[10px] text-sky-600/80 -mt-0.5 font-medium">
+					<span class="text-[10px] text-sky-400/80 -mt-0.5 font-medium">
 						Eksperimen & Himpunan Informasi
 					</span>
 				</div>
 			</a>
 
 			<div class="flex items-center gap-3">
-				<div class="hidden sm:inline-flex items-center gap-2 px-3 py-1 rounded-full bg-sky-50/80 border border-sky-200/60 text-xs text-sky-800">
-					<span class="w-2 h-2 rounded-full bg-sky-500 animate-pulse"></span>
+				<div class="hidden sm:inline-flex items-center gap-2 px-3 py-1 rounded-full bg-sky-950/60 border border-sky-800/60 text-xs text-sky-300">
+					<span class="w-2 h-2 rounded-full bg-sky-400 animate-pulse"></span>
 					<span class="text-[11px] font-semibold">Portal Aktif</span>
 				</div>
 
 				<a
 					href="#katalog"
-					class="text-xs px-4 py-1.5 rounded-full bg-gradient-to-r from-sky-600 to-blue-600 text-white font-semibold hover:from-sky-700 hover:to-blue-700 transition-all shadow-xs hover:shadow-md hover:shadow-sky-500/20"
+					class="text-xs px-4 py-1.5 rounded-full bg-gradient-to-r from-sky-500 to-blue-600 hover:from-sky-400 hover:to-blue-500 text-white font-semibold transition-all shadow-md shadow-sky-900/40"
 				>
 					Jelajahi Modul
 				</a>
@@ -135,68 +135,68 @@
 		<!-- Hero Section -->
 		<section class="text-center max-w-3xl mx-auto space-y-6 pt-4">
 			<!-- Soft Blue Pill Badge with Pulse -->
-			<div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-semibold bg-sky-50 border border-sky-200/70 text-sky-800 shadow-2xs hover:bg-sky-100/70 transition-colors">
-				<span class="w-2 h-2 rounded-full bg-sky-500 animate-ping"></span>
-				<span class="text-sky-700">LABORATORIUM DIGITAL</span>
-				<span class="text-sky-300">•</span>
-				<span class="text-sky-600/90 font-medium">Rindra Aniko</span>
+			<div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-semibold bg-sky-950/60 border border-sky-800/60 text-sky-300 shadow-2xs">
+				<span class="w-2 h-2 rounded-full bg-sky-400 animate-ping"></span>
+				<span class="text-sky-300">LABORATORIUM DIGITAL</span>
+				<span class="text-sky-700">•</span>
+				<span class="text-sky-400/90 font-medium">Rindra Aniko</span>
 			</div>
 
 			<!-- Main Grand Heading with Subtle Tint -->
-			<h1 class="text-4xl sm:text-6xl md:text-7xl font-extrabold tracking-tight text-[#1d1d1f] leading-[1.06]">
+			<h1 class="text-4xl sm:text-6xl md:text-7xl font-extrabold tracking-tight text-white leading-[1.06]">
 				SELAMAT DATANG <br />
-				<span class="bg-gradient-to-r from-sky-600 via-blue-600 to-indigo-600 bg-clip-text text-transparent">
+				<span class="bg-gradient-to-r from-sky-400 via-blue-400 to-indigo-400 bg-clip-text text-transparent">
 					DI LABS.
 				</span>
 			</h1>
 
 			<!-- Subtitle -->
-			<p class="text-lg sm:text-xl text-slate-500 leading-relaxed max-w-2xl mx-auto font-normal">
+			<p class="text-lg sm:text-xl text-slate-300 leading-relaxed max-w-2xl mx-auto font-normal">
 				"Disini adalah himpunan informasi sekaligus tempat untuk mengeksplorasi berbagai eksperimen"
 			</p>
 
-			<!-- Modern Keynote Metric Strip with Soft Sky Tints -->
+			<!-- Modern Keynote Metric Strip with Dark Blue Tints -->
 			<div class="pt-2 grid grid-cols-3 gap-3.5 max-w-lg mx-auto">
-				<div class="p-4 rounded-2xl bg-gradient-to-b from-sky-50/60 to-white border border-sky-100 hover:border-sky-200 transition-all text-center shadow-xs">
-					<div class="text-2xl sm:text-3xl font-black text-sky-900 tracking-tight">{modules.length}</div>
-					<div class="text-[11px] text-sky-700/80 font-semibold uppercase tracking-wider mt-0.5">Modul Resmi</div>
+				<div class="p-4 rounded-2xl bg-[#111c33] border border-sky-500/25 hover:border-sky-400/50 transition-all text-center shadow-lg shadow-black/40">
+					<div class="text-2xl sm:text-3xl font-black text-sky-300 tracking-tight">{modules.length}</div>
+					<div class="text-[11px] text-sky-400/80 font-semibold uppercase tracking-wider mt-0.5">Modul Resmi</div>
 				</div>
 
-				<div class="p-4 rounded-2xl bg-gradient-to-b from-sky-50/60 to-white border border-sky-100 hover:border-sky-200 transition-all text-center shadow-xs">
-					<div class="text-2xl sm:text-3xl font-black text-emerald-600 tracking-tight">13+</div>
-					<div class="text-[11px] text-slate-500 font-semibold uppercase tracking-wider mt-0.5">Berkas & Video</div>
+				<div class="p-4 rounded-2xl bg-[#111c33] border border-sky-500/25 hover:border-sky-400/50 transition-all text-center shadow-lg shadow-black/40">
+					<div class="text-2xl sm:text-3xl font-black text-emerald-400 tracking-tight">13+</div>
+					<div class="text-[11px] text-slate-300 font-semibold uppercase tracking-wider mt-0.5">Berkas & Video</div>
 				</div>
 
-				<div class="p-4 rounded-2xl bg-gradient-to-b from-sky-50/60 to-white border border-sky-100 hover:border-sky-200 transition-all text-center shadow-xs">
-					<div class="text-2xl sm:text-3xl font-black text-sky-600 tracking-tight">100%</div>
-					<div class="text-[11px] text-sky-700/80 font-semibold uppercase tracking-wider mt-0.5">Akses Cloud</div>
+				<div class="p-4 rounded-2xl bg-[#111c33] border border-sky-500/25 hover:border-sky-400/50 transition-all text-center shadow-lg shadow-black/40">
+					<div class="text-2xl sm:text-3xl font-black text-sky-400 tracking-tight">100%</div>
+					<div class="text-[11px] text-sky-400/80 font-semibold uppercase tracking-wider mt-0.5">Akses Cloud</div>
 				</div>
 			</div>
 		</section>
 
-		<!-- Section Showcase: Bento Grid dengan Kombinasi Biru Muda Indah -->
+		<!-- Section Showcase: Bento Grid dengan Dark Blue / Midnight Black Theme -->
 		<section id="katalog" class="space-y-8 scroll-mt-20">
 			<!-- Section Header & Controls -->
-			<div class="flex flex-col md:flex-row md:items-end justify-between gap-6 pb-4 border-b border-sky-100">
+			<div class="flex flex-col md:flex-row md:items-end justify-between gap-6 pb-4 border-b border-slate-800/80">
 				<div>
-					<div class="inline-flex items-center gap-1.5 text-xs uppercase tracking-widest text-sky-600 font-bold mb-1">
+					<div class="inline-flex items-center gap-1.5 text-xs uppercase tracking-widest text-sky-400 font-bold mb-1">
 						<span>✨</span>
 						<span>Katalog Modul Unggulan</span>
 					</div>
-					<h2 class="text-2xl sm:text-3xl font-extrabold tracking-tight text-[#1d1d1f]">
+					<h2 class="text-2xl sm:text-3xl font-extrabold tracking-tight text-white">
 						Himpunan & Eksperimen
 					</h2>
-					<p class="text-sm text-slate-500 mt-1">
+					<p class="text-sm text-slate-400 mt-1">
 						Pilih kartu modul untuk membuka berkas kerja dan tutorial interaktif.
 					</p>
 				</div>
 
 				<!-- Search & Filter Controls -->
 				<div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 w-full md:w-auto">
-					<!-- Search Box (Soft Sky Tint) -->
+					<!-- Search Box (Dark Navy Tint) -->
 					<div class="relative w-full sm:w-64">
 						<svg
-							class="w-4 h-4 text-sky-500 absolute left-3.5 top-1/2 -translate-y-1/2 pointer-events-none"
+							class="w-4 h-4 text-sky-400 absolute left-3.5 top-1/2 -translate-y-1/2 pointer-events-none"
 							fill="none"
 							stroke="currentColor"
 							viewBox="0 0 24 24"
@@ -212,7 +212,7 @@
 							type="text"
 							bind:value={searchQuery}
 							placeholder="Cari modul, topik, video..."
-							class="w-full pl-9 pr-4 py-2 text-xs rounded-full bg-sky-50/50 border border-sky-200/70 text-slate-800 placeholder:text-slate-400 focus:outline-none focus:bg-white focus:border-sky-400 focus:ring-4 focus:ring-sky-400/15 transition-all"
+							class="w-full pl-9 pr-4 py-2 text-xs rounded-full bg-[#111c33] border border-sky-500/30 text-slate-100 placeholder:text-slate-400 focus:outline-none focus:bg-[#15233e] focus:border-sky-400 focus:ring-4 focus:ring-sky-500/25 transition-all shadow-inner"
 						/>
 					</div>
 
@@ -224,8 +224,8 @@
 								onclick={() => (selectedCategory = category)}
 								class="px-4 py-2 rounded-full text-xs font-semibold whitespace-nowrap transition-all cursor-pointer {selectedCategory ===
 								category
-									? 'bg-gradient-to-r from-sky-600 to-blue-600 text-white shadow-sm shadow-sky-600/25'
-									: 'bg-sky-50/70 text-slate-600 hover:bg-sky-100/70 hover:text-sky-900 border border-sky-100'}"
+									? 'bg-gradient-to-r from-sky-500 to-blue-600 text-white shadow-sm shadow-sky-600/30'
+									: 'bg-[#111c33] text-slate-300 hover:bg-[#162544] hover:text-white border border-sky-500/20'}"
 							>
 								{category}
 							</button>
@@ -234,33 +234,33 @@
 				</div>
 			</div>
 
-			<!-- Bento Grid Cards (Kombinasi Biru Muda Indah & Elegan) -->
+			<!-- Bento Grid Cards (Kombinasi Biru Gelap Kontras & Menonjol) -->
 			{#if filteredModules.length > 0}
 				<div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
 					{#each filteredModules as item}
 						<article
-							class="group relative rounded-3xl bg-gradient-to-b from-sky-50/70 via-blue-50/30 to-white hover:from-sky-50/90 hover:via-blue-50/50 hover:to-white border border-sky-200/60 hover:border-sky-300 p-7 sm:p-8 transition-all duration-300 hover:shadow-2xl hover:shadow-sky-500/10 hover:-translate-y-1 flex flex-col justify-between overflow-hidden shadow-xs"
+							class="group relative rounded-3xl bg-gradient-to-b from-[#142038] via-[#101a2f] to-[#0c1527] hover:from-[#192847] hover:via-[#132039] hover:to-[#0f1a30] border-2 border-sky-500/30 hover:border-sky-400/70 p-7 sm:p-8 transition-all duration-300 shadow-xl shadow-black/60 hover:shadow-2xl hover:shadow-sky-900/40 hover:-translate-y-1.5 flex flex-col justify-between overflow-hidden ring-1 ring-white/5"
 						>
-							<!-- Decorative Light Blue Ambient Radial Glow Inside Card -->
+							<!-- Decorative Ambient Glow Inside Card -->
 							<div
-								class="pointer-events-none absolute -top-24 -right-24 w-64 h-64 bg-gradient-to-br from-sky-400/20 via-blue-300/10 to-transparent rounded-full blur-3xl group-hover:scale-125 transition-transform duration-500 opacity-90"
+								class="pointer-events-none absolute -top-24 -right-24 w-64 h-64 bg-gradient-to-br from-sky-500/20 via-blue-600/15 to-transparent rounded-full blur-3xl group-hover:scale-125 transition-transform duration-500 opacity-90"
 							></div>
 
 							<!-- Subtle Top Border Highlight Line -->
-							<div class="pointer-events-none absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-sky-400/50 to-transparent opacity-60 group-hover:opacity-100 transition-opacity"></div>
+							<div class="pointer-events-none absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-sky-400/70 to-transparent opacity-60 group-hover:opacity-100 transition-opacity"></div>
 
 							<div class="relative z-10 space-y-6">
 								<!-- Card Top Row: Icon, Meta Badge & Status -->
 								<div class="flex items-center justify-between gap-3">
 									<div class="flex items-center gap-3">
-										<div class="w-13 h-13 rounded-2xl bg-white border border-sky-200/80 shadow-xs flex items-center justify-center text-2xl group-hover:scale-105 group-hover:border-sky-300 transition-all duration-300">
+										<div class="w-13 h-13 rounded-2xl bg-[#1b2b4a] border border-sky-400/40 shadow-md shadow-sky-950/40 flex items-center justify-center text-2xl group-hover:scale-105 group-hover:border-sky-300 transition-all duration-300">
 											{item.icon}
 										</div>
 										<div>
-											<span class="text-[11px] font-bold text-sky-700 uppercase tracking-wider block">
+											<span class="text-[11px] font-bold text-sky-400 uppercase tracking-wider block">
 												{item.badge}
 											</span>
-											<span class="text-xs font-semibold text-slate-500">
+											<span class="text-xs font-semibold text-slate-300">
 												{item.subtitle}
 											</span>
 										</div>
@@ -268,8 +268,8 @@
 
 									<span
 										class="text-xs font-bold px-3 py-1 rounded-full {item.statusColor === 'emerald'
-											? 'bg-emerald-50 text-emerald-700 border border-emerald-200'
-											: 'bg-sky-100/90 text-sky-800 border border-sky-200'}"
+											? 'bg-emerald-950/90 text-emerald-300 border border-emerald-700/80 shadow-xs'
+											: 'bg-sky-950/90 text-sky-300 border border-sky-700/80 shadow-xs'}"
 									>
 										{item.status}
 									</span>
@@ -277,30 +277,30 @@
 
 								<!-- Card Title & Description -->
 								<div class="space-y-2 pt-1">
-									<h3 class="text-2xl font-bold text-[#1d1d1f] group-hover:text-sky-700 transition-colors tracking-tight leading-snug">
+									<h3 class="text-2xl font-bold text-white group-hover:text-sky-300 transition-colors tracking-tight leading-snug">
 										<a href={item.href} class="focus:outline-none after:absolute after:inset-0">
 											{item.title}
 										</a>
 									</h3>
-									<p class="text-sm text-slate-600 leading-relaxed font-normal">
+									<p class="text-sm text-slate-300 leading-relaxed font-normal">
 										{item.description}
 									</p>
 								</div>
 
-								<!-- Interactive Micro-Previews (Soft Sky Blue Boxes) -->
+								<!-- Interactive Micro-Previews (Dark Sky Blue Boxes) -->
 								<div class="space-y-2.5 pt-2">
-									<span class="text-[11px] font-bold uppercase tracking-wider text-sky-800/70 block">
+									<span class="text-[11px] font-bold uppercase tracking-wider text-sky-400 block">
 										Cakupan Materi & Komponen:
 									</span>
 									<div class="grid grid-cols-2 gap-2.5">
 										{#each item.highlights as hl}
-											<div class="p-3 rounded-xl bg-white/95 hover:bg-sky-50/80 border border-sky-100/80 hover:border-sky-200 flex items-center gap-2.5 shadow-[0_2px_8px_rgba(14,165,233,0.04)] transition-colors">
+											<div class="p-3 rounded-xl bg-[#0a1120]/90 hover:bg-[#121e35] border border-sky-500/20 hover:border-sky-400/40 flex items-center gap-2.5 shadow-sm transition-colors">
 												<span class="text-base shrink-0">{hl.icon}</span>
 												<div class="min-w-0">
-													<div class="text-xs font-bold text-slate-800 truncate leading-tight group-hover:text-sky-950">
+													<div class="text-xs font-bold text-slate-100 truncate leading-tight group-hover:text-sky-200">
 														{hl.name}
 													</div>
-													<div class="text-[10px] font-medium text-sky-600 truncate">
+													<div class="text-[10px] font-medium text-sky-400 truncate">
 														{hl.type}
 													</div>
 												</div>
@@ -311,16 +311,16 @@
 							</div>
 
 							<!-- Card Footer / Bottom Bar -->
-							<div class="relative z-10 pt-6 mt-6 border-t border-sky-200/50 flex items-center justify-between gap-4">
-								<div class="text-xs text-slate-500 font-medium truncate">
+							<div class="relative z-10 pt-6 mt-6 border-t border-sky-500/20 flex items-center justify-between gap-4">
+								<div class="text-xs text-slate-300 font-medium truncate">
 									<span>Integrasi: </span>
-									<strong class="text-sky-900">{item.stats.value}</strong>
+									<strong class="text-sky-300">{item.stats.value}</strong>
 								</div>
 
-								<!-- Beautiful Soft Blue Action Button (Direct Interactive Link) -->
+								<!-- Action Button -->
 								<a
 									href={item.href}
-									class="relative z-20 inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-gradient-to-r from-sky-600 to-blue-600 hover:from-sky-500 hover:to-blue-500 text-white text-xs font-bold transition-all shadow-md shadow-sky-500/25 hover:shadow-lg hover:shadow-sky-500/40 hover:scale-[1.03] active:scale-[0.98] shrink-0 cursor-pointer no-underline"
+									class="relative z-20 inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-gradient-to-r from-sky-500 to-blue-600 hover:from-sky-400 hover:to-blue-500 text-white text-xs font-bold transition-all shadow-md shadow-sky-900/50 hover:shadow-lg hover:shadow-sky-900/70 hover:scale-[1.03] active:scale-[0.98] shrink-0 cursor-pointer no-underline"
 								>
 									<span>Buka Halaman</span>
 									<svg
@@ -338,10 +338,10 @@
 				</div>
 			{:else}
 				<!-- Empty State -->
-				<div class="py-20 text-center rounded-3xl bg-gradient-to-b from-sky-50/50 to-white border border-sky-100 p-8 space-y-3">
+				<div class="py-20 text-center rounded-3xl bg-[#111c33] border-2 border-sky-500/30 p-8 space-y-3 shadow-xl">
 					<div class="text-4xl">🔍</div>
-					<h3 class="text-lg font-bold text-[#1d1d1f]">Tidak ada modul yang cocok</h3>
-					<p class="text-xs sm:text-sm text-slate-500 max-w-sm mx-auto">
+					<h3 class="text-lg font-bold text-white">Tidak ada modul yang cocok</h3>
+					<p class="text-xs sm:text-sm text-slate-400 max-w-sm mx-auto">
 						Tidak ditemukan hasil pencarian dengan kata kunci "{searchQuery}". Silakan coba kata kunci lain.
 					</p>
 					<button
@@ -350,7 +350,7 @@
 							searchQuery = '';
 							selectedCategory = 'Semua';
 						}}
-						class="mt-3 px-5 py-2 rounded-full text-xs font-bold bg-gradient-to-r from-sky-600 to-blue-600 text-white hover:from-sky-700 hover:to-blue-700 transition-all shadow-xs cursor-pointer"
+						class="mt-3 px-5 py-2 rounded-full text-xs font-bold bg-gradient-to-r from-sky-500 to-blue-600 text-white hover:from-sky-400 hover:to-blue-500 transition-all shadow-xs cursor-pointer"
 					>
 						Reset Pencarian
 					</button>
@@ -358,34 +358,34 @@
 			{/if}
 		</section>
 
-		<!-- Feature Highlight / Philosophy Banner (Soft Sky Blue Aesthetic) -->
-		<section class="relative rounded-3xl bg-gradient-to-b from-sky-50/70 via-blue-50/30 to-white border border-sky-200/70 p-8 sm:p-12 text-center space-y-4 shadow-sm overflow-hidden">
+		<!-- Feature Highlight / Philosophy Banner (Dark Mode Aesthetic) -->
+		<section class="relative rounded-3xl bg-gradient-to-b from-[#142038] via-[#101a2f] to-[#0c1527] border-2 border-sky-500/30 p-8 sm:p-12 text-center space-y-4 shadow-xl shadow-black/60 overflow-hidden ring-1 ring-white/5">
 			<!-- Subtle Top Light Line -->
-			<div class="pointer-events-none absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-sky-400/40 to-transparent"></div>
+			<div class="pointer-events-none absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-sky-400/60 to-transparent"></div>
 
-			<div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full text-[11px] font-bold bg-white text-sky-800 border border-sky-200/80 shadow-2xs">
+			<div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full text-[11px] font-bold bg-[#1b2b4a] text-sky-300 border border-sky-400/40 shadow-xs">
 				<span>🏛️</span>
 				<span>Sistem Informasi Terbuka</span>
 			</div>
 
-			<h2 class="text-2xl sm:text-4xl font-extrabold text-[#1d1d1f] tracking-tight">
+			<h2 class="text-2xl sm:text-4xl font-extrabold text-white tracking-tight">
 				Membangun Perencanaan Berbasis Data & Riset.
 			</h2>
 
-			<p class="text-sm sm:text-base text-slate-600 max-w-2xl mx-auto leading-relaxed font-normal">
+			<p class="text-sm sm:text-base text-slate-300 max-w-2xl mx-auto leading-relaxed font-normal">
 				Setiap berkas dan dokumentasi eksperimen disusun secara sistematis agar dapat diakses oleh publik, akademisi, dan perangkat daerah guna mendorong inovasi Kota Sungai Penuh.
 			</p>
 
 			<div class="pt-4 flex flex-wrap items-center justify-center gap-3">
 				<a
 					href="/riprid2026"
-					class="px-5 py-2.5 rounded-full bg-white hover:bg-sky-600 hover:text-white text-sky-800 text-xs font-bold transition-all border border-sky-200 shadow-xs hover:shadow-sky-500/20"
+					class="px-5 py-2.5 rounded-full bg-[#1b2b4a] hover:bg-sky-600 text-slate-100 hover:text-white text-xs font-bold transition-all border border-sky-400/40 hover:border-sky-300 shadow-md"
 				>
 					Akses RIPRID 2027–2029 →
 				</a>
 				<a
 					href="/ipkd2026"
-					class="px-5 py-2.5 rounded-full bg-white hover:bg-sky-600 hover:text-white text-sky-800 text-xs font-bold transition-all border border-sky-200 shadow-xs hover:shadow-sky-500/20"
+					class="px-5 py-2.5 rounded-full bg-[#1b2b4a] hover:bg-sky-600 text-slate-100 hover:text-white text-xs font-bold transition-all border border-sky-400/40 hover:border-sky-300 shadow-md"
 				>
 					Tonton IPKD Tube 2026 →
 				</a>
@@ -393,22 +393,22 @@
 		</section>
 	</main>
 
-	<!-- Footer with Clean Soft Sky Line -->
-	<footer class="border-t border-sky-100 bg-[#fbfdfd] py-12">
-		<div class="max-w-6xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-6 text-xs text-slate-500">
+	<!-- Footer with Clean Dark Slate Line -->
+	<footer class="border-t border-slate-800/80 bg-[#050811] py-12">
+		<div class="max-w-6xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-6 text-xs text-slate-400">
 			<div class="flex items-center gap-3">
 				<div class="w-6 h-6 rounded-lg bg-gradient-to-br from-sky-500 to-blue-600 text-white flex items-center justify-center text-[10px] font-bold shadow-xs">
 					R
 				</div>
-				<span class="text-[#1d1d1f] font-bold">uji coba rindra aniko</span>
+				<span class="text-slate-200 font-bold">uji coba rindra aniko</span>
 				<span>•</span>
 				<span>Eksperimen & Himpunan Berkas</span>
 			</div>
 
-			<div class="flex items-center gap-4 text-slate-600 font-medium">
-				<a href="/riprid2026" class="hover:text-sky-600 transition-colors">RIPRID 2026</a>
+			<div class="flex items-center gap-4 text-slate-400 font-medium">
+				<a href="/riprid2026" class="hover:text-sky-400 transition-colors">RIPRID 2026</a>
 				<span>•</span>
-				<a href="/ipkd2026" class="hover:text-sky-600 transition-colors">IPKD 2026</a>
+				<a href="/ipkd2026" class="hover:text-sky-400 transition-colors">IPKD 2026</a>
 				<span>•</span>
 				<span>Kota Sungai Penuh</span>
 			</div>
