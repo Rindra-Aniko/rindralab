@@ -12,20 +12,34 @@
 	--font-sans: 'Quattrocento Sans', ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 	--font-quattrocento: 'Quattrocento Sans', sans-serif;
 	--font-poppins: 'Poppins', sans-serif;
+
+	--color-eleken-bg: #f9f7f3;
+	--color-eleken-card: #ffffff;
+	--color-eleken-dark: #1d1e22;
+	--color-eleken-muted: #616264;
+	--color-eleken-subtle: #8a8b8e;
+	--color-eleken-border: #e6e4e0;
+	--color-eleken-border-light: #f0eee9;
+	--color-eleken-coral: #f2723c;
+	--color-eleken-coral-hover: #e0622d;
+	--color-eleken-coral-light: #ff8e5e;
+	--color-eleken-coral-bg: #fff2ec;
+	--color-eleken-lime: #ccf095;
+	--color-eleken-lime-dark: #2d4512;
 }
 
-/* Global Dark Mode Base (Deep Dark Blue / Midnight Black) */
+/* Global Eleken Warm Canvas Base */
 html {
 	scroll-behavior: smooth;
-	background-color: #060913;
-	color: #f1f5f9;
-	color-scheme: dark;
+	background-color: #f9f7f3;
+	color: #1d1e22;
+	color-scheme: light;
 }
 
 body {
 	font-family: var(--font-sans);
-	background-color: #060913;
-	color: #f1f5f9;
+	background-color: #f9f7f3;
+	color: #1d1e22;
 	min-height: 100vh;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
